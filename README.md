@@ -26,8 +26,8 @@ To enable thumbnails in timeline, install [thumbfast](https://github.com/po5/thu
 * up           add volume +5
 * down         add volume -5
 * /            set volume to 100
-* \[\            playback speed -0.25
-* \]\            playback speed +0.25
+* \[            playback speed -0.25
+* \]            playback speed +0.25
 * \            set playback speed to 1
 
 # q is default quit so I am not adding it here
