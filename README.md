@@ -20,7 +20,7 @@ you can edit a LOT of stuff. You can choose custom keyboard shortcuts by editing
 
 # Thumbnails
 
-To enable thumbnails in timeline, install [thumbfast](https://github.com/po5/thumbfast). No other step necessary.
+To enable thumbnails in timeline, install [thumbfast](https://github.com/po5/thumbfast). No other steps are necessary.
 
 # Keyboard Shortcuts
 ```
@@ -40,11 +40,11 @@ q --------------- quit (MPV default)
 ```
 # Buttons
 
-like the built-in script, some buttons may accept multiple mouse actions, here is a list:
+The buttons on the OSC bar have multiple functions depending on how you interact with them:
 
 ## Seekbar
-* Left mouse button: seek to chosen position.
-* Right mouse button: seek to the head of chosen chapter
+* Left mouse button: jump to chosen position.
+* Right mouse button: jump to the head of chosen chapter (if there are chapters)
 ## Playlist back/forward buttons
 * Left mouse button: play previous/next file.
 * Right mouse button: show playlist.
@@ -59,6 +59,6 @@ like the built-in script, some buttons may accept multiple mouse actions, here i
 * Left mouse button/Right mouse button: cycle to next/previous track.
 * Middle mouse button: show track list.
 ## Playback time
-* Left mouse button: display time in milliseconds
+* Left mouse button: display time in milliseconds (why? I dunno)
 ## Duration
 * Left mouse button: display total time instead of remaining time
