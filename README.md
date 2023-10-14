@@ -17,10 +17,10 @@ Extract the contents of the zip file found at [Releases](https://github.com/Andu
 That's it!
 
 # How to configure
-you can edit a LOT of stuff. You can choose custom keyboard shortcuts by editing the input.conf file. You can also edit osc.conf in "\~\~/script-opts/" folder, however many options are changed, so refer to the user_opts variable list in the MPVClean.lua file found in /scripts for details.
+you can edit a LOT of stuff. You can choose custom keyboard shortcuts by editing the input.conf file. You can also edit "osc.conf" in the "/script-opts/" folder, however many options are changed, so refer to the "user_opts" variable list in the "MPVClean.lua" file found in "/scripts" for details.
 
 > [!NOTE]
-> I have scaled the OSC interface up in windowed mode to make it actually usuable when the video player is small. This scaling may seem rather large if you are playing in a maximized window, but the OSC scaling shrinks IF you play the video in fullscreen. MPV functionality is limited in this regard so I opted in favour of having a usable interface when the video window is small.
+> I have scaled the OSC interface up in windowed mode to make it actually usuable when the video player is small. This scaling may seem rather large if you are playing in a maximized window, but the OSC scaling goes down in size if you play the video in fullscreen. MPV functionality is limited in this regard so I opted in favour of having a usable interface when the video window is small.
 
 # Thumbnails
 
