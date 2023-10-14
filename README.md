@@ -1,5 +1,5 @@
 # MPVClean - a fork of ModernX based on VLC
-An MPV OSC script based on [mpv-osc-modern](https://github.com/maoiscat/mpv-osc-modern/) that aims to mirror the functionality of MPV's stock OSC while with a more modern-looking interface.
+An MPV OSC (on screen controls) script based on [mpv-osc-modern](https://github.com/maoiscat/mpv-osc-modern/) that aims to mirror the functionality of MPV's stock OSC while with a more modern-looking interface.
 
 ![MPVClean preview image](MPVClean.png)
 
@@ -12,8 +12,11 @@ Locate your MPV folder. It is typically located at `\%APPDATA%\mpv\` on Windows 
 
 Extract the contents of the zip file into the above-mentioned folder. That's it!
 
-# How to config
+# How to configure
 you can edit a LOT of stuff. You can choose custom keyboard shortcuts by editing the input.conf file. You can also edit osc.conf in "\~\~/script-opts/" folder, however many options are changed, so refer to the user_opts variable in the script file for details.
+
+> [!NOTE]
+> I have scaled the OSC interface up in windowed mode to make it actually usuable when the video player is small. This scaling may seem rather large if you are playing in a maximized window, but the OSC scaling shrinks IF you play the video in fullscreen. MPV functionality is limited in this regard so I opted in favour of having a usable interface when the video window is small.
 
 # Thumbnails
 
