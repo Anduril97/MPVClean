@@ -5,9 +5,10 @@ An MPV OSC script based on [mpv-osc-modern](https://github.com/maoiscat/mpv-osc-
 
 Locate your MPV folder. It is typically located at `\%APPDATA%\mpv\` on Windows and `~/.config/mpv/` on Linux/MacOS. See the [Files section](https://mpv.io/manual/master/#files) in mpv's manual for more info.
 
-If you have data in this folder already, please delete it or move it elsewhere.
+> [!NOTE]
+> If you have data in this folder already, please delete it or move it elsewhere (unless you know what you're doing?).
 
-Extract the contents of the zip file into the above-mentioned folder.
+Extract the contents of the zip file into the above-mentioned folder. That's it!
 
 # How to config
 you can edit a LOT of stuff. You can choose custom keyboard shortcuts by editing the input.conf file. You can also edit osc.conf in "\~\~/script-opts/" folder, however many options are changed, so refer to the user_opts variable in the script file for details.
@@ -29,8 +30,7 @@ To enable thumbnails in timeline, install [thumbfast](https://github.com/po5/thu
 * \[            playback speed -0.25
 * \]            playback speed +0.25
 * \            set playback speed to 1
-
-# q is default quit so I am not adding it here
+* q is default quit so I am not adding it here
 
 # Buttons
 
