@@ -27,7 +27,8 @@ you can edit a LOT of stuff. You can choose custom keyboard shortcuts by editing
 To enable thumbnails in timeline, install [thumbfast](https://github.com/po5/thumbfast). No other steps are necessary.
 
 # Keyboard Shortcuts (basic)
-This is not an extensive list; mpv has many more that will work.
+This is not an extensive list; mpv has many more listed at [Keyboard Shortcuts](https://mpv.io/manual/master/#keyboard-control).
+However, these are the custom shortcuts I made to resemble VLC's interface. You can change these however you like by editing the inputs.conf file.
 ```
 spacebar -------- play/pause
 right arrow ----- seek +3
