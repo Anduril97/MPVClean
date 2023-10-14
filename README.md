@@ -26,7 +26,8 @@ you can edit a LOT of stuff. You can choose custom keyboard shortcuts by editing
 
 To enable thumbnails in timeline, install [thumbfast](https://github.com/po5/thumbfast). No other steps are necessary.
 
-# Keyboard Shortcuts
+# Keyboard Shortcuts (basic)
+This is not an extensive list; mpv has many more that will work.
 ```
 spacebar -------- play/pause
 right arrow ----- seek +3
@@ -37,8 +38,8 @@ m --------------- mute on/off
 up arrow -------- add volume +5
 down arrow ------ add volume -5
 / --------------- set volume to 100
-\ --------------- playback speed -0.25
-\ --------------- playback speed +0.25
+[ --------------- playback speed -0.25
+] --------------- playback speed +0.25
 \ --------------- set playback speed to 1
 q --------------- quit (MPV default)
 ```
