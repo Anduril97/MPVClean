@@ -1,26 +1,16 @@
-# ModernX
+# MPVClean - a fork of ModernX based on VLC
 An MPV OSC script based on [mpv-osc-modern](https://github.com/maoiscat/mpv-osc-modern/) that aims to mirror the functionality of MPV's stock OSC while with a more modern-looking interface.
-
-![img](https://github.com/cyl0/ModernX/blob/main/preview.png)
 
 # How to install
 
 Locate your MPV folder. It is typically located at `\%APPDATA%\mpv\` on Windows and `~/.config/mpv/` on Linux/MacOS. See the [Files section](https://mpv.io/manual/master/#files) in mpv's manual for more info.
 
-Put mordenx.lua into your mpv "\~\~/scripts/" folder. Create the "\~\~/scripts/" folder if you don't already have one and remove any other OSC scripts,
-then put `Material-Design-Iconic-Font.ttf` in the "\~\~/fonts" folder.
+If you have data in this folder already, please delete it or move it elsewhere.
 
-in mpv.conf:
-
-```
-osc = no
-border = no # Optional, but recommended
-```
-`Material-Design-Iconic-Font.ttf` can also be downloaded from [here](https://zavoloklom.github.io/material-design-iconic-font/).
+Extract the contents of the zip file into the above-mentioned folder.
 
 # How to config
-
-edit osc.conf in "\~\~/script-opts/" folder, however many options are changed, so refer to the user_opts variable in the script file for details.
+you can edit a LOT of stuff. You can choose custom keyboard shortcuts by editing the input.conf file. You can also edit osc.conf in "\~\~/script-opts/" folder, however many options are changed, so refer to the user_opts variable in the script file for details.
 
 # Thumbnails
 
