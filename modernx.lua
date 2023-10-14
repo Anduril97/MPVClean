@@ -1,9 +1,11 @@
--- mpv-osc-modern by maoiscat
+-- this is a grandchild of mpv-osc-modern by maoiscat
 -- email:valarmor@163.com
 -- https://github.com/maoiscat/mpv-osc-modern
-
--- fork by cyl0
+-- MPVClean is a newer fork of ModernX by cyl0
 -- https://github.com/cyl0/ModernX/
+
+-- MPVClean: simplistic VLC interface on MPV by Anduril97
+-- https://github.com/Anduril97/MPVClean/
 
 local assdraw = require 'mp.assdraw'
 local msg = require 'mp.msg'
@@ -14,11 +16,11 @@ local utils = require 'mp.utils'
 -- Parameters
 --
 -- default user option values
--- may change them in osc.conf
+-- the following are features that can be changed in osc.conf (found in /scripts-opts)
 local user_opts = {
     showwindowed = true,        -- show OSC when windowed?
     showfullscreen = true,      -- show OSC when fullscreen?
-    idlescreen = true,          -- draw logo and text when idle
+    idlescreen = true,          -- draw logo and text when idle (not playing)
     scalewindowed = 1.0,        -- scaling of the controller when windowed
     scalefullscreen = 1.0,      -- scaling of the controller when fullscreen
     scaleforcedwindow = 2.0,    -- scaling when rendered on a forced window
@@ -54,11 +56,12 @@ local user_opts = {
     windowcontrols = 'auto',    -- whether to show window controls
     greenandgrumpy = false,     -- disable santa hat
     language = 'eng',		-- eng=English, chs=Chinese
-    volumecontrol = true,       -- whether to show mute button and volumne slider
+    volumecontrol = true,       -- whether to show mute button and volume slider
     keyboardnavigation = false, -- enable directional keyboard navigation
     chapter_fmt = "Chapter: %s", -- chapter print format for seekbar-hover. "no" to disable
 }
 
+-- YUMMY CODE YAYYYYYY
 -- Icons for jump button depending on jumpamount 
 local jumpicons = { 
     [5] = {'\239\142\177', '\239\142\163'}, 
