@@ -1,5 +1,5 @@
 # MPVClean - a fork of ModernX based on VLC
-An MPV OSC (on screen controls) script based on [mpv-osc-modern](https://github.com/maoiscat/mpv-osc-modern/) that aims to mirror the functionality of MPV's stock OSC while with a more modern-looking interface.
+An MPV OSC (on screen controls) script based on [mpv-osc-modern](https://github.com/maoiscat/mpv-osc-modern/) that aims to mirror the basic interface of VLC with a more modern look. 
 
 ![MPVClean preview image](MPVClean.png)
 
