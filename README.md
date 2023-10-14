@@ -11,6 +11,7 @@ Locate your MPV folder. It is typically located at `\%APPDATA%\mpv\` on Windows 
 > If you have data in this folder already, please delete it or move it elsewhere (unless you know what you're doing?).
 
 Extract the contents of the zip file found at [Releases](https://github.com/Anduril97/MPVClean/releases) into the above-mentioned folder. Just the contents, your folder should look like this:
+
 ![MPV Config folder](https://github.com/Anduril97/MPVClean/assets/100987393/0d88f36e-0480-4127-a4ee-04dca91f871f)
 
 That's it!
