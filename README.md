@@ -10,7 +10,8 @@ Locate your MPV folder. It is typically located at `\%APPDATA%\mpv\` on Windows 
 > [!NOTE]
 > If you have data in this folder already, please delete it or move it elsewhere (unless you know what you're doing?).
 
-Extract the contents of the zip file into the above-mentioned folder. That's it!
+Extract the contents of the zip file found at [Releases](https://github.com/Anduril97/MPVClean/releases) into the above-mentioned folder. Just the contents.
+That's it!
 
 # How to configure
 you can edit a LOT of stuff. You can choose custom keyboard shortcuts by editing the input.conf file. You can also edit osc.conf in "\~\~/script-opts/" folder, however many options are changed, so refer to the user_opts variable in the script file for details.
