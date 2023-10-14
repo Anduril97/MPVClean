@@ -1,7 +1,7 @@
 -- this is a grandchild of mpv-osc-modern by maoiscat
 -- email:valarmor@163.com
 -- https://github.com/maoiscat/mpv-osc-modern
--- MPVClean is a newer fork of ModernX by cyl0
+-- MPVClean is a newer fork of cyl0's ModernX
 -- https://github.com/cyl0/ModernX/
 
 -- MPVClean: simplistic VLC interface on MPV by Anduril97
