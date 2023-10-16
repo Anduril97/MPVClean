@@ -43,6 +43,7 @@ down arrow ------ add volume -5
 ] --------------- playback speed +0.25
 \ --------------- set playback speed to 1
 q --------------- quit (MPV default)
+f --------------- toggle Fullscreen (MPV default)
 ```
 # Buttons
 
