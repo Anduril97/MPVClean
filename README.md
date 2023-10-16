@@ -25,7 +25,7 @@ you can edit a LOT of stuff. You can choose custom keyboard shortcuts by editing
 > [!IMPORTANT]
 > If you want to decrease the size of the controls in windowed mode read this:  
 > Since it is a matter of personal preference, go to the `script-opts` folder, open the `osc.conf` file, and uncomment out this already existing line `# scalewindowed=2.0` by deleting the # and space before it.
-> You can then change the "windowed" controls scale size to whatever you like, try 1.5 or even 1 if you wish.
+> You can then change the "windowed" controls scale size to whatever you like by deleting `2.0` and inputting a lower number, try 1.5 or even 1 if you wish.
 
 # Thumbnails
 
