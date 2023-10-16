@@ -1141,9 +1141,13 @@ function window_controls()
     -- and libass will complain that they are not present in the
     -- default font, even if another font with them is available.
 
-    -- Close: ??
+ -- Close: ??
     ne = new_element('close', 'button')
-    ne.content = '\238\132\149'
+    if state.fullscreen then
+    	ne.content = ' ' -- hide when fullscreen
+    else
+    	ne.content = '\238\132\149'
+    end
     ne.eventresponder['mbtn_left_up'] =
         function () mp.commandv('quit') end
     lo = add_layout('close')
@@ -1153,7 +1157,11 @@ function window_controls()
 
     -- Minimize: ??
     ne = new_element('minimize', 'button')
-    ne.content = '\\n\238\132\146'
+    if state.fullscreen then
+    	ne.content = ' ' -- hide when fullscreen
+    else
+    	ne.content = '\\n\238\132\146'
+    end
     ne.eventresponder['mbtn_left_up'] =
         function () mp.commandv('cycle', 'window-minimized') end
     lo = add_layout('minimize')
@@ -1163,7 +1171,9 @@ function window_controls()
     
     -- Maximize: ?? /??
     ne = new_element('maximize', 'button')
-    if state.maximized or state.fullscreen then
+    if state.fullscreen then
+    	ne.content = ' ' -- hide when fullscreen
+    elseif state.maximized then
         ne.content = '\238\132\148'
     else
         ne.content = '\238\132\147'
