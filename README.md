@@ -42,6 +42,7 @@ down arrow ------ add volume -5
 [ --------------- playback speed -0.25
 ] --------------- playback speed +0.25
 \ --------------- set playback speed to 1
+t --------------- MPV window Stay on Top on/off
 q --------------- quit (MPV default)
 f --------------- toggle Fullscreen (MPV default)
 ```
