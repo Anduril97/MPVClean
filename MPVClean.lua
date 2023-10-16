@@ -23,7 +23,7 @@ local user_opts = {
     idlescreen = true,          -- draw logo and text when idle (not playing)
     scalewindowed = 2.0,        -- scaling of the controller when windowed
     scalefullscreen = 1.0,      -- scaling of the controller when fullscreen
-    scaleforcedwindow = 2.0,    -- scaling when rendered on a forced window
+    scaleforcedwindow = 1.5,    -- scaling when rendered on a forced window
     vidscale = true,            -- scale the controller with the video?
     hidetimeout = 1500,         -- duration in ms until the OSC hides if no
                                 -- mouse movement. enforced non-negative for the
