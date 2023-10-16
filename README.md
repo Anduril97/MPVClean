@@ -22,6 +22,11 @@ you can edit a LOT of stuff. You can choose custom keyboard shortcuts by editing
 > [!NOTE]
 > I have scaled the OSC interface up in windowed mode to make it actually usuable when the video player is small. This scaling may seem rather large if you are playing in a maximized window, but the OSC scaling goes down in size if you play the video in fullscreen. MPV functionality is limited in this regard so I opted in favour of having a usable interface when the video window is small.
 
+> [!IMPORTANT]
+> If you want to decrease the size of the controls in windowed mode read this:
+> Since it is a matter of preference go to the `script-opts` folder, open the `osc.conf` file, and uncomment out this already existing line `# scalewindowed=2.0` by deleting the # and space before it.
+> You can then change the "windowed" controls scale size to whatever you like, try 1.5 or even 1 if you wish.
+
 # Thumbnails
 
 To enable thumbnails in timeline, install [thumbfast](https://github.com/po5/thumbfast). No other steps are necessary.
