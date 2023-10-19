@@ -1,7 +1,7 @@
 -- this is a grandchild of mpv-osc-modern by maoiscat
 -- email:valarmor@163.com
 -- https://github.com/maoiscat/mpv-osc-modern
--- MPVClean is a newer fork of cyl0's ModernX
+-- MPVClean is a newer fork of ModernX by cyl0
 -- https://github.com/cyl0/ModernX/
 
 -- MPVClean: simplistic VLC interface on MPV by Anduril97
@@ -226,7 +226,7 @@ end
 function window_controls_enabled()
     val = user_opts.windowcontrols
     if val == 'auto' then
-        return (not state.border) or state.fullscreen
+        return (not state.border)
     else
         return val ~= 'no'
     end
@@ -1141,12 +1141,14 @@ function window_controls()
     -- and libass will complain that they are not present in the
     -- default font, even if another font with them is available.
 
- -- Close: ??
+    -- Close: ??
     ne = new_element('close', 'button')
     if state.fullscreen then
-    	ne.content = ' ' -- hide when fullscreen
+    	-- ne.content = '' -- hide when fullscreen
+      ne.visible = false
     else
     	ne.content = '\238\132\149'
+      ne.visible = true
     end
     ne.eventresponder['mbtn_left_up'] =
         function () mp.commandv('quit') end
@@ -1158,9 +1160,11 @@ function window_controls()
     -- Minimize: ??
     ne = new_element('minimize', 'button')
     if state.fullscreen then
-    	ne.content = ' ' -- hide when fullscreen
+      ne.visible = false
+    	-- ne.content = '' -- hide when fullscreen
     else
     	ne.content = '\\n\238\132\146'
+      ne.visible = true
     end
     ne.eventresponder['mbtn_left_up'] =
         function () mp.commandv('cycle', 'window-minimized') end
@@ -1172,11 +1176,14 @@ function window_controls()
     -- Maximize: ?? /??
     ne = new_element('maximize', 'button')
     if state.fullscreen then
-    	ne.content = ' ' -- hide when fullscreen
+      ne.visible = false
+    	-- ne.content = '' -- hide when fullscreen
     elseif state.maximized then
-        ne.content = '\238\132\148'
+      ne.content = '\238\132\148'
+      ne.visible = true
     else
-        ne.content = '\238\132\147'
+      ne.content = '\238\132\147'
+      ne.visible = true
     end
     ne.eventresponder['mbtn_left_up'] =
         function ()
