@@ -5,7 +5,7 @@ An MPV OSC (on screen control) script based on [ModernX](https://github.com/cyl0
 
 # How to install/update
 
-Locate your MPV folder. It is typically located at `\%APPDATA%\mpv\` on Windows and `~/.config/mpv/` on Linux/MacOS. See the [Files section](https://mpv.io/manual/master/#files) in mpv's manual for more info.
+Locate your MPV folder. It is typically located at `~/.config/mpv/` on Linux/MacOS (and `\%APPDATA%\mpv\` on Windows, but unfortunately at this time it appears this UI does not work on Windows). See the [Files section](https://mpv.io/manual/master/#files) in mpv's manual for more info.
 
 > [!NOTE]
 > If you have data in this folder already, please delete it or move it elsewhere (unless you know what you're doing?). This applies when updating from an older version of MPVClean as well.
